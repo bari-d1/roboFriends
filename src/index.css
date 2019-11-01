@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 body {
   margin: 0;
   padding: 0;
@@ -8,10 +9,37 @@ body {
   -moz-osx-font-smoothing: grayscale;
   align-items: center;
   align-content: center;
-  background: linear-gradient(to left, rgb(192, 192, 192), rgb(64, 0, 64));
+  background: linear-gradient(to left, rgb(10, 207, 207), rgb(255, 255, 0));
+  text-align: center;
+  margin-right: 20%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+h1{
+  font-family: 'Mansalva', cursive;
+  font-size: 60px;
+  color:white;
+}
+#loading{
+  font-family: 'Mansalva', cursive;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 22%;
+}
+#sticky{
+  position:fixed;
+  top:0;
+  text-align:center;
+  z-index: 1;
+  background-color: rgb(9, 41, 41);
+  width:100%;
+  height:100;
+  padding:0;
+}
+#cardlist{ 
+  width:100%;
+  margin-top: 10%;
 }
